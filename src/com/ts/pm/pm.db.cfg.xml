@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <mapping class="com.ts.pm.Customer"/>
+    <mapping class="com.ts.pm.Place"/>
+    <mapping class="com.ts.pm.ZipToPlace"/>
+    <mapping class="com.ts.pm.Zipcode"/>
+    <mapping class="com.ts.pm.Package"/>
+    <mapping class="com.ts.pm.Shipment"/>
+  </session-factory>
+</hibernate-configuration>
